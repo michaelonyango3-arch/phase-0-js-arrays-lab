@@ -10,6 +10,10 @@ function updateProductName(position, newName) {
 
 function removeLastProduct() {
     products.pop();
+}
+
+function addProduct(productName) {
+    products.push(productName);
 }// Write your code here
 
 
